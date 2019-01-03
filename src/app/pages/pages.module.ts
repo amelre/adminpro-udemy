@@ -12,7 +12,7 @@ import { ChartsModule } from 'ng2-charts';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
-
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
 // temporal
@@ -23,6 +23,7 @@ import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CommonModule } from '@angular/common';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 
@@ -39,7 +40,9 @@ import { CommonModule } from '@angular/common';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         PagesComponent,
