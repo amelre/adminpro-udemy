@@ -29,7 +29,7 @@ export class UsuariosComponent implements OnInit {
     this._modalUploadService.notificacion.subscribe( rep => this.cargarUsuarios());
   }
 
-  mostrarModal(id: string){
+  mostrarModal(id: string) {
     this._modalUploadService.motrarModal('usuarios', id);
   }
 

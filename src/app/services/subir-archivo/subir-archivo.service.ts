@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-import { createHash } from 'crypto';
 import { URL_SERVICIOS } from '../../config/config';
-import { XhrFactory } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
