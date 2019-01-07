@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { RouterModule } from '@angular/router';
 import { PipesModule } from '../pipes/pipes.module';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
 
@@ -20,13 +21,15 @@ import { PipesModule } from '../pipes/pipes.module';
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
+        ModalUploadComponent,
     ],
-    exports:[
+    exports: [
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
+        ModalUploadComponent
     ]
 })
 export class SharedModule{};
